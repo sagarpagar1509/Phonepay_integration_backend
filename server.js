@@ -75,7 +75,7 @@ app.post("/api/initiate-payment", async (req, res) => {
 
         res.json(response.data);
     } catch (error) {
-        console.error("❌ Payment API Error:", error.response?.data || error.message);
+        console.error(" Payment API Error:", error.response?.data || error.message);
         res.status(500).json({ error: "Payment request failed" });
     }
 });
