@@ -15,18 +15,18 @@ app.use(
   })
 );
 
-const PHONEPE_AUTH_URL =
-  "https://api-preprod.phonepe.com/apis/pg-sandbox/v1/oauth/token";
-const PHONEPE_PAYMENT_URL =
-  "https://api-preprod.phonepe.com/apis/pg-sandbox/checkout/v2/pay";
-const PHONEPE_STATUS_URL =
-  "https://api-preprod.phonepe.com/apis/pg-sandbox/checkout/v2/order";
+// const PHONEPE_AUTH_URL =
+//   "https://api-preprod.phonepe.com/apis/pg-sandbox/v1/oauth/token";
+// const PHONEPE_PAYMENT_URL =
+//   "https://api-preprod.phonepe.com/apis/pg-sandbox/checkout/v2/pay";
+// const PHONEPE_STATUS_URL =
+//   "https://api-preprod.phonepe.com/apis/pg-sandbox/checkout/v2/order";
 
 // production Api
-// const PHONEPE_AUTH_URL =
-//   "https://api.phonepe.com/apis/identity-manager/v1/oauth/token";
-// const PHONEPE_PAYMENT_URL = "https://api.phonepe.com/apis/pg/checkout/v2/pay";
-// const PHONEPE_STATUS_URL = "https://api.phonepe.com/apis/pg";
+const PHONEPE_AUTH_URL =
+  "https://api.phonepe.com/apis/identity-manager/v1/oauth/token";
+const PHONEPE_PAYMENT_URL = "https://api.phonepe.com/apis/pg/checkout/v2/pay";
+const PHONEPE_STATUS_URL = "https://api.phonepe.com/apis/pg";
 
 const CLIENT_ID = process.env.CLIENT_ID;
 const CLIENT_SECRET = process.env.CLIENT_SECRET;
