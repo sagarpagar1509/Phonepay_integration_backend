@@ -5,7 +5,7 @@ const axios = require("axios");
 
 const app = express();
 app.use(express.json());
-app.use(cors({ origin: "http://localhost:3000" })); // Allow frontend requests
+app.use(cors({ origin: "https://phonepay-integration.vercel.app/" })); // Allow frontend requests
 
 // const PHONEPE_AUTH_URL = "https://api-preprod.phonepe.com/apis/pg-sandbox/v1/oauth/token";
 // const PHONEPE_PAYMENT_URL = "https://api-preprod.phonepe.com/apis/pg-sandbox/checkout/v2/pay";
