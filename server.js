@@ -9,7 +9,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://phonepay-integration.vercel.app", // Allow only this frontend
+    origin: "https://successmarathi.vercel.app/", // Allow only this frontend
     methods: ["GET", "POST"], // Allowed HTTP methods
     allowedHeaders: ["Content-Type", "Authorization"], // Allowed headers
   })
